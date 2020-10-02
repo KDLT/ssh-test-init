@@ -1,0 +1,14 @@
+# A Self Tutorial For SSH and Github
+
+1. `cd path/to/project/directory` initialize the repository
+git init
+
+2. `git add .` add (to staging grounds) everything you changed kapag . ang gamit. pwede ring filenames. apparently kaya . ibig sabihin ang pwd 'yan
+# commit para secured na ang changes? staging ang tawag
+3. `git commit -m "commit  message"`
+# this just renames the current branch to main (master originally kapag kakagawa lang)
+4. `git branch -M main`
+# ssh ang gamit dito, once lang magaadd para makilala ng remote ang local
+5. `git remote add origin git@github.com:KDLT/ssh-test-init.git`
+# ganito magbato ng changes na magrereflect na sa git
+6. `git push -u origin main`

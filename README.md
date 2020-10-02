@@ -1,16 +1,11 @@
-# when creating a new repo
+# A Self Tutorial For SSH and Github
 
-cd path/to/project/directory
-# initialize the repository
+1. `cd path/to/project/directory` initialize the repository
 git init
-# add (to staging grounds) everything you changed kapag . ang gamit. pwede ring filenames
-# apparently kaya . ibig sabihin ang pwd 'yan
-git add .
-# commit para secured na ang changes? staging ang tawag
-git commit -m "commit  message"
-# this just renames the current branch to main (master originally kapag kakagawa lang)
-git branch -M main
-# ssh ang gamit dito, once lang magaadd para makilala ng remote ang local
-git remote add origin git@github.com:KDLT/ssh-test-init.git
-# ganito magbato ng changes na magrereflect na sa git
-git push -u origin main
+
+2. `git add .` add (to staging grounds) everything you changed kapag . ang gamit. pwede ring filenames. apparently kaya . ibig sabihin ang pwd 'yan
+3. `git commit -m "commit  message"` commit para secured na ang changes? staging ang tawag
+4. `git branch -M main` this just renames the current branch to main (master originally kapag kakagawa lang)
+5. `git remote add origin git@github.com:KDLT/ssh-test-init.git` ssh ang gamit dito, once lang magaadd para makilala ng remote ang local
+6. `git push -u origin main` ganito magbato ng changes na magrereflect na sa git
+
