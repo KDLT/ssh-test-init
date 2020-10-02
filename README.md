@@ -10,9 +10,7 @@
 
 ## Git Part using the registered SSH Key
 
-1. `cd path/to/project/directory` initialize the repository
-git init
-
+1. `cd path/to/project/directory` initialize the repository with `git init`
 2. `git add .` add (to staging grounds) everything you changed kapag . ang gamit. pwede ring filenames. apparently kaya . ibig sabihin ang pwd 'yan
 3. `git commit -m "commit  message"` commit para secured na ang changes? staging ang tawag
 4. `git branch -M main` this just renames the current branch to main (master originally kapag kakagawa lang)
