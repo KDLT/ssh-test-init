@@ -1,1 +1,2 @@
 dapat hindi na si git-trading ang nag-commit nito.
+dapat hindi na si --global ang nag-commit nito kasi puta bobo nung syntax ko last time.
